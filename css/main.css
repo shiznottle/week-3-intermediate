@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+ 	background-color: #EAEAEA;
+}
+
+h1, h2, h3, h4, p {
+	background-color: transparent;
+}
+
+nav {
+	padding: 4% 4%;
+}
+
+nav i {
+	color: #D6697D;
+}
+
+nav > a {
+	font-family:'Lobster', cursive;
+	font-size: 28px;
+	color: #404040;
+	text-decoration: none;
+}
+
+nav ul {
+	float: right;
+	margin-top: 12px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+nav li a {
+	font-size: 16px;
+	color: #404040;
+	text-decoration: none;
+}
+
+hr {
+	border: 1px solid #404040;
+	width: 95%;
+	margin: 0 auto;	
+}
+
+header {
+	text-align: center;
+	font-weight: lighter;
+
+}
+
+h1 {
+	padding: 5% 0 1% 0;
+	font-size: 28px;
+	font-weight: 400;
+}
+
+h1 span {
+	color: #D6697D;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+h3 {
+	color: #D6697D;
+	font-family: 'Lobster', cursive;
+	padding: 5% 0;
+	text-align: center;
+	font-size: 24px;
+}
+
+img {
+	width: 95%;
+}
+
+#content {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#about {
+	display: inline-block;
+	width: 48%;
+}
+
+#work {
+	width: 40%;
+	display: inline-block;
+	width: 45%;
+	margin-left: 3%;
+	padding-left: 3%;
+}
+
+#gallery {
+	width: 95%;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+.tile {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 0 0 5px 5px;
+	background-color: #FFFFFF;
+}
+
+.tile > img {
+	border-radius: 5px 5px 0 0;
+}
+
+.tiles {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.container > p {
+	color: #D6697D;
+	font-size: 12px;
+}
+
+footer {
+	background-color: #282828;
+	height: 400px;
+	padding-top: 4%;
+}
+
+label {
+	color: #D6697D;
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+	/*Why doesn't margin botto work here?*/
+}
+
+form {
+	width: 45%;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+input, textarea {
+	background-color: #EAEAEA;
+}
+
+input {
+	margin-top: 20px;
+	border: none;
+	display: block;
+	margin-bottom: 10px;
+	width: 80%;
+	padding: 10px;
+	border-radius: 4px;	
+}
+
+textarea {
+	margin-top: 10px;
+	padding: 10px;
+	width: 80%;
+	margin: left;
+	border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+   font-size: 14px;
+}
+
+footer a {
+	position: relative;
+	left: -645px;
+	top: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.social {
+	float: right;
+	width: 45%;
+	display: inline-block;
+	text-align: right;
+	margin-top: 170px;
+	margin-right: 20px;	
+}
+
+footer i {
+	background-color: #D6697D; 
+	padding: 10px;
+	margin-left: 20px;
+	border-radius: 50%;
+}	
+
+footer div {
+	display: inline-block;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
